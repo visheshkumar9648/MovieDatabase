@@ -1,61 +1,27 @@
-:
-
-🎬 Serenity Movie Tutorial Project
+🎬 **Serenity Movie Tutorial Project**
 
 This project is created by following the Serenity Movie Tutorial to understand modules, forms, grids, dialogs, master–detail relations, and image upload features in the Serenity Framework.
 
-📌 Project Overview
+**Project Overview**
 
 This application contains two main modules:
 
-🎞️ Movie Module
+**Movie Module**
 
-Add / Edit / Delete Movies
+Add / Edit / Delete Movies || Genre selection || Movie cast management || Storyline, duration, release date fields || Master–detail: Movie → CastList
 
-Genre selection
+**Person Module**
 
-Movie cast management
+Add / Edit / Delete Person records || Personal details (Name, Gender, Birthdate, Birthplace) || List of movies acted in (Loaded using PersonMovieGrid)
 
-Storyline, duration, release date fields
+**Master–Detail Setup**
 
-Master–detail: Movie → CastList
+Implemented using MasterDetailRelation | Auto-handles Save, Retrieve, Delete | CastList loads inside Movie dialog | Person dialog shows movies acted by the person
 
-🧑 Person Module
+**Image Uploads**
 
-Add / Edit / Delete Person records
+Primary image upload | Gallery image upload (multiple images) | Custom folder structure using FilenameFormat
 
-Personal details (Name, Gender, Birthdate, Birthplace)
+**Technologies Used**
 
-List of movies acted in (Loaded using PersonMovieGrid)
-
-🧩 Master–Detail Setup
-
-Implemented using MasterDetailRelation
-
-Auto-handles Save, Retrieve, Delete
-
-CastList loads inside Movie dialog
-
-Person dialog shows movies acted by the person
-
-🖼️ Image Uploads
-
-Primary image upload
-
-Gallery image upload (multiple images)
-
-Custom folder structure using FilenameFormat
-
-🛠️ Technologies Used
-
-ASP.NET Core
-
-Serenity Framework
-
-TypeScript
-
-SQL Server
-
-FluentMigrator
-
-Visual Studio 2019
+ASP.NET Core | Serenity Framework | TypeScript | SQL Server | FluentMigrator | Visual Studio 2019
